@@ -7,6 +7,13 @@ This project is a user authentication module built with a modern tech stack incl
 
 The User Authentication Module is designed to provide a seamless authentication experience for users. It allows users to sign up and sign in using secure practices and JWT for token-based authentication. The module uses Formik for form handling, Yup for validation, and Redux for managing application state.
 
+## Screenshots Sign-Up, Sign-In, and Home
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="screenshots/signup.png" alt="Sign-Up Page" style="width: 32%; margin-right: 10px; border-radius: 4px;" />
+  <img src="screenshots/signin.png" alt="Sign-In Page" style="width: 32%; margin-right: 10px; border-radius: 4px;" />
+  <img src="screenshots/home.png" alt="User Profile" style="width: 32%; border-radius: 4px;" />
+</div>
+
 ## Features
 
 - **User Registration**: Secure sign-up with validation and password hashing.
