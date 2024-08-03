@@ -42,6 +42,7 @@ The User Authentication Module is designed to provide a seamless authentication 
 - **Mongoose**: An ODM for MongoDB to manage relationships between data.
 - **JWT (JsonWebToken)**: For token-based authentication.
 - **bcrypt**: A library to hash passwords securely.
+- **winston**: A library to handle server logging.
 
 
 ## Project Setup
