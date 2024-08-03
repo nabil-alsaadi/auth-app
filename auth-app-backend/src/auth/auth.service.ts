@@ -13,7 +13,7 @@ export class AuthService {
     private readonly jwtService: JwtService,
   ) {}
 
-  // Validate user credentials
+  
   async validateUser(email: string, password: string): Promise<Omit<UserDocument, 'password'> | null> {
     const user = await this.userService.findOneByEmail(email);
     if (user && await bcrypt.compare(password, user.password)) {
@@ -36,7 +36,7 @@ export class AuthService {
     };
   }
 
-  // Register a new user with unique email check
+  
   async register(registerDto: RegisterDto): Promise<{ access_token: string }> {
     try {
         const hashedPassword = await bcrypt.hash(registerDto.password, 10);
