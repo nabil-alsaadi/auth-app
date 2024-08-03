@@ -28,7 +28,7 @@ const FormField: React.FC<FormFieldProps> = ({ label, name, type, placeholder, c
     };
   return (
     <div className='field-container'>
-      <label htmlFor={name}>{label}</label>
+      {/* <label htmlFor={name}>{label}</label> */}
       {/* <Field type={type} name={name} placeholder={placeholder} className={`input ${className || ''}`} /> */}
       <Field name={name}>
         {({ field }: any) => (
