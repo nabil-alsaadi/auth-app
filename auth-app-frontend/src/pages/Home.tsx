@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AppHeader from '../components/AppHeader';
 import '../styles/Home.css'
+import { getUserData } from '../redux/actions/userActions';
+import { useDispatch } from 'react-redux';
 
 const Home: React.FC = () => {
-
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getUserData())
+  },[])
   return (
     <div className="app-page">
       <AppHeader title="Welcome" />
