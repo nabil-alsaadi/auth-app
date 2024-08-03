@@ -1,0 +1,20 @@
+.checkbox-label {
+    font-size: 0.875em;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+  
+.forgot-password {
+    display: block;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.875em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password:hover {
+    color: #0056b3;
+}

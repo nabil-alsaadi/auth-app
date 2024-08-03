@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+#.env
+
+# Build files
+dist/
+build/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
