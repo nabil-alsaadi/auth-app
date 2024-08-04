@@ -103,3 +103,25 @@ The application uses Winston for logging, providing robust logging capabilities 
 
 - Console: Log output to the console for easy development debugging.
 - File: Log error and combined logs to files for persistence.
+
+## Testing
+
+The User Authentication Module is rigorously tested using **Jest**, ensuring reliability and correctness of the backend components. Tests cover all critical functionalities, focusing on edge cases and error handling.
+
+
+### Key Features
+
+- **Comprehensive Coverage**: Includes unit tests for all major components.
+- **Mocking**: Simulates external dependencies like databases to focus on business logic.
+- **Automated Testing**: Run all tests with a single command to verify code integrity.
+
+### Running Tests
+
+1. **Navigate to the Backend Directory**: 
+   ```bash
+   cd auth-app/auth-app-backend
+   ```
+2. **Run the Tests**:
+   ```bash
+   npm run test
+   ```
