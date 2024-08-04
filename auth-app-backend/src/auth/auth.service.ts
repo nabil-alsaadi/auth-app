@@ -38,6 +38,11 @@ export class AuthService {
 
   
   async register(registerDto: RegisterDto): Promise<{ access_token: string }> {
+    const existingUser = await this.userService.findOneByEmail(registerDto.email);
+    if (existingUser) {
+      throw new ConflictException('Email already exists');  // Correctly handled, should not hit the catch block
+    }
+    
     try {
         const hashedPassword = await bcrypt.hash(registerDto.password, 10);
         const newUser = await this.userService.create({ ...registerDto, password: hashedPassword });

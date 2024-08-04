@@ -10,7 +10,6 @@ export class UserController {
   @UseGuards(AuthGuard('jwt'))
   @Get('profile')
   async getProfile(@Req() req): Promise<{ email: string; name: string }> {
-    console.log('req =============',req)
     const { email, name } = req.user;
     return { email, name };
   }
